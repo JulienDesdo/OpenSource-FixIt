@@ -45,10 +45,6 @@ Chaque sous-dossier contient :
 
 ---
 
-## 🚧 En cours / À venir
-
----
-
 ## ✨ Pourquoi c’est important ?
 
 Dans un monde où tout le monde veut "créer le prochain projet qui claque", je crois qu’il est tout aussi important de :
