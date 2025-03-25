@@ -32,14 +32,50 @@ Cependant, le code original souffrait de plusieurs problèmes :
 
 ## 📷 Aperçu
 
- A completer (Captures d'écran Terminal + App Swing) 
+### 🎛️ Interface graphique
+
+![Interface Ping](./screenshot_gui.png)
+
+### 🖥️ Affichage terminal
+
+![Terminal](./screenshot_terminal.png)
 
 ---
 
 ## 🚀 Lancer le projet
 
-A completer (spécifcations configs versions)
+### 🧰 Prérequis
 
+- **Java SDK / JRE** : Java **1.8** (JavaSE-1.8)
+  - Compiler compliance level : `1.8`
+  - JRE System Library : `JavaSE-1.8`
+- **IDE recommandé** : Eclipse IDE for Java Developers
+  - Version testée : *2022-06 (4.24.0)*
+  - Build ID : *20220609-1112*
+- **Bibliothèques utilisées** :
+  - `java.time.*` pour la gestion du temps (Java 8+)
+  - `java.awt.*` & `javax.swing.*` pour l’interface graphique (Swing natif)
+  - `java.net.*` pour le ping réseau
+  - `java.util.concurrent.*` pour la gestion de threads et du scheduler
+
+⚠️ À noter : l’utilisation de **Swing** nécessite de vérifier l’environnement de développement et d’exécution. Swing est pleinement compatible avec **Java 8 (JavaSE-1.8)**, mais peut présenter des problèmes avec des versions plus récentes du JDK (Java 11+)
+
+### 🚀 Méthode 1 : Via Eclipse (ou autre IDE)
+
+1. Ouvrir le dossier du projet dans Eclipse
+2. Vérifier que le SDK Java est bien configuré (Java Build Path)
+3. Lancer la classe `Principale.java` (clic droit > Run as → Java Application)
+
+---
+
+### ⚙️ Méthode 2 : En ligne de commande
+
+```bash
+javac Principale.java Overlay.java
+java Principale
+
+⚠️ Attention : le JRE utilisé en ligne de commande (via `java`) peut être différent de celui configuré dans Eclipse.
+Vérifiez que votre `JAVA_HOME` et votre `PATH` pointent bien vers le même JDK/JRE que celui utilisé en IDE, sinon vous pourriez avoir des différences entre IDE & CLI.
 ---
 
 ## 🧠 Ce que j'ai appris
