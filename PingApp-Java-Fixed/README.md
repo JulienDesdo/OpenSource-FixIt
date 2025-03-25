@@ -73,7 +73,7 @@ Cependant, le code original souffrait de plusieurs problèmes :
 ```bash
 javac Principale.java Overlay.java
 java Principale
-```
+```bash
 
 ⚠️ Attention : le JRE utilisé en ligne de commande (via `java`) peut être différent de celui configuré dans Eclipse.
 Vérifiez que votre `JAVA_HOME` et votre `PATH` pointent bien vers le même JDK/JRE que celui utilisé en IDE, sinon vous pourriez avoir des différences entre IDE & CLI.
